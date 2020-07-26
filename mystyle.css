@@ -6,10 +6,8 @@ p.head{
       font-family: 'Raleway', sans-serif;
       font-size: 2em;
 }
+ 
 
-p.btn-group{
-      font-family: 'Raleway', sans-serif;
-      background-color: white;
-      padding-left: 14em;
-      padding-right: 14.5em;
+p.button{
+      text-align: center;
 }
