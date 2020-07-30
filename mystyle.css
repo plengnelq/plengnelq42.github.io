@@ -1,7 +1,6 @@
 p.head{
       text-align: center;
-      color: white;
-      padding: 1em;
+      color:black;
       background-color: #cf9490;
       font-family: 'Raleway', sans-serif;
       font-size: 2em;
@@ -14,16 +13,6 @@ p.button{
       text-align: center;
 }
 
-.item.active {
-      height: 50em;
-      width: 50em;
-    
-}
-
-.carousel-inner {
-      align-content: center;
-      height: 40em;
-      padding-left: 27em;
-      padding-right: 20em;
-      
+.carousel-item.active {
+      padding-bottom: 10em;
 }
