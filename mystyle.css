@@ -1,6 +1,6 @@
-p.head{
+.head{
       text-align: center;
-      color:black;
+      color: white;
       background-color: #cf9490;
       font-family: 'Raleway', sans-serif;
       font-size: 2em;
@@ -13,6 +13,3 @@ p.button{
       text-align: center;
 }
 
-.carousel-item.active {
-      padding-bottom: 10em;
-}
