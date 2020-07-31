@@ -1,9 +1,11 @@
-.head{
+p.head{
       text-align: center;
       color: white;
       background-color: #cf9490;
       font-family: 'Raleway', sans-serif;
       font-size: 2em;
+      padding: 1em;
+      
 }
  
 
@@ -11,5 +13,11 @@ p.button{
       padding-top: 2em;
       padding-bottom: 3em;
       text-align: center;
+      font-family: 'Raleway', sans-serif;
+
 }
 
+.d-block {
+      width: 600px;
+      height: 900px;
+}
