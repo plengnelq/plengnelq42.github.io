@@ -21,3 +21,8 @@ p.button{
       width: 600px;
       height: 900px;
 }
+
+.table {
+      color: black;
+      font-size: 1em;
+}
