@@ -7,6 +7,8 @@
     <title>My Foodie</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="menu.css">
+    
       
       <div class="main">
             <h1>
@@ -38,57 +40,124 @@
             <thead>
               <tr style="background-color:#cf9490;">
                 <th scope="col" class="text-center">Day</th>
-                <th scope="col" class="text-center">Subject</th>
-                <th scope="col" class="text-center">Time</th>
+                <th scope="col" class="text-center">Describtion</th>
               </tr>
+              
             </thead>
             <tbody>
               <tr style="background-color:white">
-                <th scope="row" class="text-center">Monday</th>
-                <td class="text-center"><h6>Samina</h6> <h6>System Analysis and Design</h6> </td>
-                <td class="text-center"><h6>08.00-11.00</h6> <h6>12.30-14.30(lecture)
-                  14.30-16.30(lab)</h6></td>
-                
-              <tr style="background-color:white">
-                <th scope="row" class="text-center">Tuesday</th>
-                <td class="text-center"> <h6>Technology and Web Services</h6></td>
-                <td class="text-center"> <h6>08.00-10.00(lecture)
-                  12.30-14.30(lab)</h6>
-                
+                <th> <div class="dropdown">
+                  <button onclick="show_hide()" class="button1" >Monday</button>
+                    <div style="display: none; "id="drop-content">
+                      <button onclick="showdata()"   href="#">Semina</button>
+                      <button onclick="showdata1()"  href="#">Sa</button>
+                        <th style="display: none;"id = "showdata">
+                          <a>การนำเสนอและอภิปรายหัวข้อที่น่าสนใจทางวิทยาการคอมพิวเตอร์ในระดับปริญญาตรี<h6>08.00-11.00</h6> </a> </th>
+            
+                        <th style="display: none;"id = "showdata1">
+                          <a>ขั้นตอนวิเคราะห์เบื้องต้น เครื่องมือในการวิเคราะห์ระบบ ผังระบบงาน ตารางการตัดสินและต้นไม้การตัดสิน การศึกษาความเป็นไปได้ของปัญหา การวิเคราะห์ความคุ้มค่าในการลงทุน นำเข้า ส่งออกและการออกแบบ การออกแบบวิธีการประมวลผลด้วยคอมพิวเตอร์ การทำเอกสาร การนำไปใช้และการประเมินผล การพิสูจน์การออกแบบกรณีศึกษา
+                            <h6>12.30-14.30(lecture)
+                                14.30-16.30(lab)</h6></a></th>
+                    </div> 
+                  </div>                     
+                </th> 
               </tr>
-              <tr style="background-color:white">
-                <th scope="row" class="text-center">Wednesday</th>
-                <td class="text-center"> <h6>Intellectual Properties and Professional Ethics</h6> <h6>Operating System</h6></td>
-                <td class="text-center"> <h6>08.00-09.30</h6> <h6>10.00-12.00</h6> </td>
                 
+                
+              <tr style="background-color:white">
+                <th><div class="dropdown">
+                  <button onclick="show_hide1()" class="button1" >Tuesday</button>
+                    <div style="display: none; "id="drop-content1">  
+                      <button onclick="showdata3()"   href="#">Web tech</button>
+                      <button onclick="showdata2()"   href="#">Eng4</button>
+                      <th style="display: none;"id = "showdata3">
+                        <a>หลักการเว็บเทคโนโลยีและเว็บบริการ ข้อกำหนดมาตรฐานของเว็บเทคโนโลยี สถาปัตยกรรมและส่วนประกอบ 
+                         ลักษณะการทำงานและกลไกของระบบเว็บบริการ การพัฒนาโปรแกรมสำเร็จรูปเว็บเทคโนโลยีลักษณะการทำงานและโครงแบบเอพีไอ
+                         <h6>08.00-10.00(lecture)
+                           12.30-14.30(lab)</h6>   </a></th>
+                        <th style="display: none;"id = "showdata2">
+                          <a>การเขียนจากตัวอย่างที่ดี โดยใช้โครงสร้างประโยคและคำศัพท์ที่เหมาะสม Writing from models using appropriate structure and vocabulary<h6>14.30-16.30</h6></a> </th>
+                                 
+                    </div>
+                  </th>
               </tr>
+
+
               <tr style="background-color:white">
-                  <th scope="row" class="text-center">Thursday</th>
-                  <td class="text-center"> <h6>English Writing</h6> </td>
-                  <td class="text-center"> <h6>14.30-16.00</h6></td>
-                  
+                <th><div class="dropdown">
+                  <button onclick="show_hide2()" class="button1" >Wednesday</button>
+                    <div style="display: none; "id="drop-content2" >  
+                      <button onclick="showdata4()"   href="#">IP</button>
+                      <button onclick="showdata5()"   href="#">OS</button>
+                        <th style="display: none;"id = "showdata4">
+                          <a>แยกประเภทของทรัพย์สินทางปัญญา การได้มาซึ่งลิขสิทธิ์ สิทธิแต่เพียงผู้เดียวของเจ้าของลิขสิทธิ์การละเมิดลิขสิทธิ์ การใช้โดยธรรม ใบอนุญาตของซอฟต์แวร์เสรีใบอนุญาตของซอฟต์แวร์เปิดเผยรหัส ใบอนุญาตให้ใช้โปรแกรมคอมพิวเตอร์ ครีเอทีฟคอมมอนส์สิทธิบัตร เครื่องหมายการค้าและเครื่องหมายการบริการ นโยบายส่วนบุคคล อาชญากรรมคอมพิวเตอร์กรณีศึกษา <h6>08.00-09.30</h6></a> </th>
+          
+              
+                        <th style="display: none;"id = "showdata5">
+                          <a>พัฒนาการของสถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ โครงสร้างระบบปฏิบัติการ กระบวนการและสายโยงใย การจัดกำหนดการ การติดตาย ลำดับขั้นของหน่วยความจำ การจัดการหน่วยความจำ หน่วยความจำเสมือน การจัดการระบบแฟ้ม การจัดการระบบรับเข้า/ส่งออก ความมั่นคง การป้องกัน ระบบปฏิบัติการแบบกระจาย
+                            <h6>10.00-12.00</h6></a></th>                               
+                    </div>
+                  </th>
+              </tr>
+
+              <tr style="background-color:white">
+                  <th <div class="dropdown">
+                    <button onclick="show_hide3()" class="button1" >Thursday</button>
+                      <div style="display: none; "id="drop-content3">  
+                        <button onclick="showdata6()"   href="#">Eng4</button>
+                        <th style="display: none;"id = "showdata6">
+                          <a>การเขียนจากตัวอย่างที่ดี โดยใช้โครงสร้างประโยคและคำศัพท์ที่เหมาะสม Writing from models using appropriate structure and vocabulary<h6>14.30-16.30</h6></a> </th>                                
+                      </div>
+                    </th>
                 </tr>
+
                 <tr style="background-color:white">
-                  <th scope="row" class="text-center">Friday</th>
-                  <td class="text-center"> <h6>Intellectual Properties and Professional Ethics</h6> <h6>Operating System</h6></td>
-                <td class="text-center"> <h6>08.00-09.30</h6> <h6>10.00-12.00</h6> </td>
-                
-                  
+                  <th><div class="dropdown">
+                    <button onclick="show_hide4()" class="button1" >Friday</button>
+                      <div style="display: none; "id="drop-content4"> 
+                        <button onclick="showdata7()"   href="#">IP</button>
+                        <button onclick="showdata8()"   href="#">OS</button>
+                        <th style="display: none;"id = "showdata7">
+                          <a>แยกประเภทของทรัพย์สินทางปัญญา การได้มาซึ่งลิขสิทธิ์ สิทธิแต่เพียงผู้เดียวของเจ้าของลิขสิทธิ์การละเมิดลิขสิทธิ์ การใช้โดยธรรม ใบอนุญาตของซอฟต์แวร์เสรีใบอนุญาตของซอฟต์แวร์เปิดเผยรหัส ใบอนุญาตให้ใช้โปรแกรมคอมพิวเตอร์ ครีเอทีฟคอมมอนส์สิทธิบัตร เครื่องหมายการค้าและเครื่องหมายการบริการ นโยบายส่วนบุคคล อาชญากรรมคอมพิวเตอร์กรณีศึกษา <h6>08.00-09.30</h6></a> </th>
+          
+                      
+                        <th style="display: none;"id = "showdata8">
+                          <a>พัฒนาการของสถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ โครงสร้างระบบปฏิบัติการ กระบวนการและสายโยงใย การจัดกำหนดการ การติดตาย ลำดับขั้นของหน่วยความจำ การจัดการหน่วยความจำ หน่วยความจำเสมือน การจัดการระบบแฟ้ม การจัดการระบบรับเข้า/ส่งออก ความมั่นคง การป้องกัน ระบบปฏิบัติการแบบกระจาย
+                            <h6>10.00-12.00</h6></a></th>                               
+                    </div>
+                  </th> 
                 </tr>
+
                 <tr style="background-color:white">
-                  <th scope="row" class="text-center">Saturday</th>
-                  <td class="text-center"> <h6>Thai Folk Music</h6> </td>
-                  <td class="text-center"> <h6>16.30-19.30</h6></td>
-                  
+                  <th><div class="dropdown">
+                    <button onclick="show_hide5()" class="button1" >Saturday</button>
+                      <div style="display: none; "id="drop-content5">  
+                        <button onclick="showdata9()"   href="#">Thai Folk song</button>
+                        <th style="display: none;"id = "showdata9">
+                          <a>เครื่องดนตรีและวงดนตรีบทบาทและหน้าที่ของดนตรีพื้นเมืองไทยภาคเหนือ
+                            Northern Thai folk musical instruments and ensembles; roles and
+                            functions of Northern Thai folk music. <h6>16.30-19.30</h6>
+                              </a> </th>                                
+                      </div>
+                    </th>                                
+                      </div>
+                    </th>
                 </tr>
+
                 <tr style="background-color:white">
-                  <th scope="row" class="text-center">Sunday</th>
-                  <td class="text-center"> <h6>-</h6> </td>
-                  <td class="text-center"> <h6>-</h6> </td>
-                  
+                  <th><div class="dropdown">
+                    <button onclick="show_hide6()" class="button1" >Sunday</button>
+                      <div style="display: none; "id="drop-content6">  
+                        <a href="#"></a>                                
+                      </div>
+                    </th> 
                 </tr>
             </tbody>
-          </table>			
- 
+          </table>
+          
+
+          
+          <script src="main.js"></script>
+          
 </body>	
 </html>
