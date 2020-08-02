@@ -1,0 +1,102 @@
+.dropdown {
+      position: relative;
+}
+.button1 {
+
+      background-color: black;
+      color: white;
+      padding: 30px;
+      padding-right: 40px;
+      font-size: 20px;
+      
+}
+#drop-content{
+      
+      z-index: 1;
+}
+#drop-content button{
+      display: block;
+      font-size: 20px;
+      background-color: blanchedalmond;
+      color: black;
+      text-decoration: none;
+      padding: 10px 70px;
+      margin-top: 2px;
+}
+#drop-content1{
+      
+      z-index: 1;
+}
+#drop-content1 button{
+      display: block;
+      font-size: 20px;
+      background-color: blanchedalmond;
+      color: black;
+      text-decoration: none;
+      padding: 10px 70px;
+      margin-top: 2px;
+}
+#drop-content2{
+      
+      z-index: 1;
+}
+#drop-content2 button{
+      display: block;
+      font-size: 20px;
+      background-color: blanchedalmond;
+      color: black;
+      text-decoration: none;
+      padding: 10px 70px;
+      margin-top: 2px;
+}
+#drop-content3{
+    
+      z-index: 1;
+}
+#drop-content3 button{
+      display: block;
+      font-size: 20px;
+      background-color: blanchedalmond;
+      color: black;
+      text-decoration: none;
+      padding: 10px 70px;
+      margin-top: 2px;
+}
+#drop-content4{
+     
+      z-index: 1;
+}
+#drop-content4 button{
+      display: block;
+      font-size: 20px;
+      background-color: blanchedalmond;
+      color: black;
+      text-decoration: none;
+      padding: 10px 70px;
+      margin-top: 2px;
+}
+#drop-content5{
+      z-index: 1;
+}
+#drop-content5 button{
+      display: block;
+      font-size: 20px;
+      background-color: blanchedalmond;
+      color: black;
+      text-decoration: none;
+      padding: 10px 70px;
+      margin-top: 2px;
+}
+#drop-content6{
+     
+      z-index: 1;
+}
+#drop-content6 button{
+      display: block;
+      font-size: 20px;
+      background-color: blanchedalmond;
+      color: black;
+      text-decoration: none;
+      padding: 10px 70px;
+      margin-top: 2px;
+}
